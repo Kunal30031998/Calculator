@@ -1,0 +1,63 @@
+.CalcBox{
+    border: 5px solid;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    border-color: rgb(243, 240, 240);
+    border-radius: 3%;
+}
+
+@media screen and (max-width: 720px) {
+    .CalcBox {
+        width : 50%
+    }
+}
+@media screen and (max-width: 360px) {
+    .CalcBox {
+        width : 100%
+    }
+}
+
+#Evaluated{
+    background-color: rgb(243, 240, 240);
+    height: 15%;
+    width: 100%;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+
+#answer{
+    text-align: right;
+    padding-top: 60px;
+    padding-right: 5px;
+    font-size: xx-large;
+}
+.commonDisplay{
+    width: 24%;
+    height: 100%;
+    outline:none;
+    background-color: white;
+    border-radius: 5%;
+    border: none;
+    font-size: xx-large;
+    margin-top: 3px;
+}
+
+.MakeLeftMargin{
+    margin-left: 3px;
+}
+
+.Zero{
+    width:49%;
+}
+
+.commonRowDisplay{
+    overflow: hidden;
+    height : 10%;
+    background-color:  rgb(243, 240, 240);
+}
+
+.MakeItRed{
+    background-color: rgb(245, 92, 53);
+    color: blanchedalmond;
+}
